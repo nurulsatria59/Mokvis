@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="18dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TextView1"
+        style="@style/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/appname"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-Mail Address"
+        android:inputType="text"
+        style="@style/Input"
+        android:drawableEnd="@drawable/ic_baseline_mail_outline_24"
+        app:met_floatingLabel="normal"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:inputType="text"
+        style="@style/Input"
+        android:drawableEnd="@drawable/ic_baseline_person_outline_24"
+        app:met_floatingLabel="normal"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:inputType="text"
+        style="@style/Input"
+        android:drawableEnd="@drawable/ic_baseline_person_24"
+        app:met_floatingLabel="normal"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        style="@style/Input"
+        android:drawableEnd="@drawable/ic_baseline_lock_24"
+        app:met_floatingLabel="normal"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        style="@style/Input"
+        android:drawableEnd="@drawable/ic_baseline_lock_open_24"
+        app:met_floatingLabel="normal"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="@string/register"
+        android:enabled="true"
+        style="@style/Button"
+        android:background="@drawable/colorgradasi"
+
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:text="@string/i_forgot_my_password"
+        android:enabled="true"
+        style="@style/Button2"
+        android:background="@drawable/colorbackground"
+        />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="appname">Appname</string>
+    <string name="register">REGISTER</string>
+    <string name="i_forgot_my_password">I FORGOT MY PASSWORD</string>
+</resources>
